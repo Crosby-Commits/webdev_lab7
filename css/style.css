@@ -1,0 +1,16 @@
+td, th {
+	border: 1px solid;
+  }
+
+body {
+  background-image: url("../images/space.jpg");
+}
+  
+#header h1 {
+  position: absolute;
+  left: 420px;
+  top:5px;
+  font-size: 3em;
+  font-family: 'Revalia', Static;
+  color: #39FF14;
+}
