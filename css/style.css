@@ -1,10 +1,6 @@
 td, th {
 	border: 1px solid;
   }
-
-body {
-  background-image: url("../images/space.jpg");
-}
   
 #header h1 {
   position: absolute;
