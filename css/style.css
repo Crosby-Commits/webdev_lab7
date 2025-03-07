@@ -59,3 +59,32 @@ body {
      -webkit-transition-duration: 0.3s;
      -webkit-transition-timing-function: ease;
 }
+
+div.container {
+  text-align: left;
+  width: 710px;
+  margin: 0 auto;
+  border: 12px solid black;
+  border-radius: 10px;
+}
+div.content {
+  width: 700px;
+  min-height: 100px;
+  background-color: black;
+  padding: 5px;
+}
+@-webkit-keyframes mini {
+  from {
+    left: 350px;
+  }
+}
+.mini {
+  position: absolute;
+  top: 200px;
+  left: 900px;
+  width: 166px;
+  height: 70px;
+  z-index: 10000;
+  -webkit-animation: mini 5s;
+  animation: mini 8s;
+}
