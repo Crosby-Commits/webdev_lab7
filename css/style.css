@@ -75,7 +75,7 @@ div.content {
 }
 @-webkit-keyframes mini {
   from {
-    left: 350px;
+    left: 150px;
   }
 }
 .mini {
