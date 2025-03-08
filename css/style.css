@@ -62,30 +62,31 @@ body {
 
 div.container {
   text-align: left;
-  width: 710px;
   margin: 0 auto;
   border-radius: 10px;
 }
 div.content {
-  width: 700px;
+  width: 900px;
   min-height: 100px;
   background-color: transparent;
   padding: 5px;
 }
 @-webkit-keyframes mini {
   from {
-    left: 40px;
+    left: 500px;
   }
 }
 .mini {
-  position: absolute;
+  position: relative;
   top: 150px;
   left: 900px;
-  width: 170px;
+  width: 200px;
   height: 95px;
   z-index: 10000;
   -webkit-animation: mini 5s;
-  animation: mini 30s;
+  animation: mini 5s;
+  animation-iteration-count: 10;
+  animation-direction: alternate;
 }
 
 
