@@ -39,9 +39,9 @@ body {
 }
 
 .heading-1 {
-  animation: slideInLeft 1s ease-in 1s 1 normal both;
+  animation: slideInLeft 1s ease 1s normal both;
   
-  transform: translateX(-125px);
+  transform: translateX(-50px);
 }
 
 .thumbnail{
@@ -64,31 +64,28 @@ div.container {
   text-align: left;
   width: 710px;
   margin: 0 auto;
-  border: 12px solid black;
   border-radius: 10px;
 }
 div.content {
   width: 700px;
   min-height: 100px;
-  background-color: black;
+  background-color: transparent;
   padding: 5px;
 }
 @-webkit-keyframes mini {
   from {
-    left: 150px;
+    left: 40px;
   }
 }
 .mini {
   position: absolute;
-  top: 200px;
+  top: 150px;
   left: 900px;
-  width: 166px;
-  height: 70px;
+  width: 170px;
+  height: 95px;
   z-index: 10000;
   -webkit-animation: mini 5s;
-  animation: mini 8s;
+  animation: mini 30s;
 }
 
- /* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {...}
 
