@@ -89,4 +89,6 @@ div.content {
   animation-direction: alternate;
 }
 
+# Mobile
+only screen and (min-width: 480px)
 
