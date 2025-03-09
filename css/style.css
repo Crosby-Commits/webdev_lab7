@@ -39,7 +39,7 @@ body {
 }
 
 .heading-1 {
-  animation: slideInLeft 1s ease 1s normal both;
+  animation: slideInLeft 1s ease-in 1s normal both;
   
   transform: translateX(-50px);
 }
@@ -66,8 +66,8 @@ div.container {
   border-radius: 10px;
 }
 div.content {
-  width: 900px;
-  min-height: 100px;
+  width: 200px;
+  min-height: 200px;
   background-color: transparent;
   padding: 5px;
 }
@@ -89,6 +89,4 @@ div.content {
   animation-direction: alternate;
 }
 
-# Mobile
-only screen and (min-width: 480px)
-
+/*
