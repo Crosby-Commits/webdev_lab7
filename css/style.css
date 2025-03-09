@@ -89,4 +89,6 @@ div.content {
   animation-direction: alternate;
 }
 
-/*
+@media only screen and (max-width: 600px) {
+  .heading-1 {grid-area: 1 / span 6;}
+}
